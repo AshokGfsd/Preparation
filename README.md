@@ -326,6 +326,7 @@ Here’s a comprehensive overview of frequently asked JavaScript interview quest
 
 33. **What do you mean by prototype design pattern?**
     - The prototype design pattern creates objects based on a template (prototype) rather than through classes, enabling inheritance.
+    - A Prototype Design Pattern is a creational pattern that helps to create new objects by copying an existing object.
     - **Example**:
       ```javascript
       const prototypeObject = {
