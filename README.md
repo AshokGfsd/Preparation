@@ -366,6 +366,7 @@ Here’s a comprehensive overview of frequently asked JavaScript interview quest
 
 37. **What is the use of promises in JavaScript?**
     - Promises represent the eventual completion (or failure) of an asynchronous operation and allow for chaining operations.
+    - Promises in JavaScript are used to handle asynchronous operations and their outcomes
     - **Example**:
       ```javascript
       const promise = new Promise((resolve, reject) => {
@@ -381,6 +382,7 @@ Here’s a comprehensive overview of frequently asked JavaScript interview quest
 
 38. **What are classes in JavaScript?**
     - Classes are syntactical sugar over JavaScript’s existing prototype-based inheritance and provide a clearer and simpler syntax for creating objects and dealing with inheritance.
+    - ES6 introduced JavaScript Classes. JavaScript Classes are templates for JavaScript Objects.
     - **Example**:
       ```javascript
       class Person {
@@ -397,6 +399,7 @@ Here’s a comprehensive overview of frequently asked JavaScript interview quest
 
 39. **What are generator functions?**
     - Generator functions are functions that can be paused and resumed, yielding multiple values over time.
+    - A generator function is a special type of function that can pause its execution and resume later.
     - **Example**:
       ```javascript
       function* generatorFunction() {
@@ -411,6 +414,7 @@ Here’s a comprehensive overview of frequently asked JavaScript interview quest
 
 40. **Explain WeakSet in JavaScript.**
     - A `WeakSet` is a collection of objects that allows for garbage collection. Objects in a `WeakSet` are held weakly, meaning if there are no other references, they can be removed from memory.
+    - WeakSet s are collections of objects and symbols only. They cannot contain arbitrary values of any type, as Set s can.
     - **Example**:
       ```javascript
       const weakSet = new WeakSet();
@@ -424,6 +428,7 @@ Here’s a comprehensive overview of frequently asked JavaScript interview quest
 
 42. **Explain WeakMap in JavaScript.**
     - A `WeakMap` is a collection of key-value pairs where the keys are objects and are held weakly. This allows for garbage collection of the keys if there are no other references to them.
+    - A WeakMap in JavaScript is a data structure that stores key-value pairs in a more efficient way than traditional JavaScript objects
     - **Example**:
       ```javascript
       const weakMap = new WeakMap();
@@ -434,6 +439,7 @@ Here’s a comprehensive overview of frequently asked JavaScript interview quest
 
 43. **What is Object Destructuring?**
     - Object destructuring is a syntax that allows unpacking properties from objects into distinct variables.
+    - a JavaScript technique that allows users to extract properties from an object and assign them to variables
     - **Example**:
       ```javascript
       const person = { name: 'Alice', age: 25 };
@@ -445,6 +451,8 @@ Here’s a comprehensive overview of frequently asked JavaScript interview quest
     - Prototypal inheritance uses prototype chains for inheritance.
     - Classical inheritance uses classes and constructors.
     - JavaScript primarily uses prototypal inheritance, while classical inheritance is implemented using ES6 classes.
+    
+    - The main difference between classical and prototypal inheritance is that in classical inheritance, an object inherits from a class, while in prototypal inheritance, an object inherits from any other object
 
 45. **What is a Temporal Dead Zone?**
     - The Temporal Dead Zone (TDZ) refers to the time span between the creation of a variable in the scope and its initialization where the variable is inaccessible.
