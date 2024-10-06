@@ -1,5 +1,72 @@
 # Preparation
-Here’s a comprehensive overview of frequently asked JavaScript interview questions along with explanations and examples:
+
+SELF INTRO
+
+Hi!  Sir I’m Ashok Govindharasu, and I graduated with a degree in B.E mech from ganesh collage of engg in 2021. 
+I have 2 years of experience in non-IT department on machine operator and supervisor role.
+I’m passionate about full stack development and have gained skills in HTML, CSS, JavaScript, and frameworks like React.js for front-end development, along with Node.js for the back end and database is a MongoDB.
+During my studies, I worked on my own projects Fitness tracker. This experience helped me understand the full development process and fueled my excitement for creating user-friendly applications.
+I’m eager to learn and grow in a professional environment, and I’m excited about the opportunity to contribute to a team. Outside of coding, I enjoy listening music and gaming. And this game also i change some logicals after then i play this game, which helps me stay creative and inspired.
+
+Thank you for considering my application and giving this opportunities  .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Title: Fitness Tracker
+1. Introduction
+Brief Overview: The Fitness Tracker is a web or mobile application designed to help users monitor and improve their fitness journey by tracking workouts, nutrition, and progress.
+2. Objectives
+Main Goals:
+To provide users with an easy-to-use platform to log their workouts and meals.
+To allow users to set fitness goals and track their progress over time.
+To offer insights and analytics based on user data to help improve fitness routines.
+3. Key Features
+User Registration and Profiles: Users can create accounts to personalize their experience.
+Workout Logging: Users can log different types of workouts (e.g., running, strength training) with details like duration, calories burned, and distance.
+Nutrition Tracking: Users can input their meals and track calorie intake and nutritional information.
+Progress Tracking: Users can view charts and graphs that display their progress over time (e.g., weight loss, strength gains).
+Goal Setting: Users can set specific fitness goals (e.g., running a certain distance or losing weight) and receive reminders.
+4. Technologies Used
+Front-end: [React, Angular, etc.], HTML, CSS
+Back-end: [Node.js, Express, etc.]
+Database: [MongoDB, SQL, etc.]
+APIs: [Any fitness-related APIs used for additional data or features]
+Tools: [Git, Postman, etc.]
+5. Challenges Faced
+Data Management: Managing and organizing user data efficiently.
+User Experience: Designing an intuitive interface that encourages regular use.
+Integration: Ensuring smooth integration between front-end and back-end.
+6. Results and Impact
+User Feedback: Share any positive feedback received from users.
+Usage Statistics: Mention how many users registered, workouts logged, etc. (if applicable).
+Future Improvements: Discuss any features you plan to add or improvements based on user feedback.
+7. Conclusion
+Overall Learning Experience: Share what you learned during the project (e.g., new technologies, project management skills).
+Importance of the Project: Emphasize the significance of fitness tracking in promoting healthier lifestyles.
+Interviewer: “Can you tell me about a project you worked on?”
+You: “Sure! I worked on a Fitness Tracker app that helps users log their workouts and meals. I was responsible for the front-end development using React, which involved creating an intuitive user interface. One challenge was ensuring data was easily accessible, so I implemented a dashboard feature that displays user progress. This project taught me a lot about user experience and data management.”
+
 
 ### JavaScript Interview Questions
 
@@ -832,6 +899,7 @@ Sure! Here’s an overview of frequently asked React interview questions, along 
 
 37. **What is the purpose of render method of react-dom?**
     - The `render` method from `react-dom` is used to render a React element into the DOM, updating the content of the target node.
+    - ReactDOM. render is a method provided by the React DOM package for rendering React elements into a DOM node. It is the most common way to display React components on a web page
 
 38. **How to use styles in React?**
     - Styles can be applied using:
@@ -841,6 +909,8 @@ Sure! Here’s an overview of frequently asked React interview questions, along 
 
 39. **How events are different in React?**
     - React's event handling is normalized across browsers. Events are named using camelCase, and the `addEventListener` method is replaced by a synthetic event system.
+    - React events are named using camelCase, rather than lowercase.
+    - With JSX you pass a function as the event handler, rather than a string.
 
 40. **What will happen if you use props in initial state?**
     - Using props in the initial state can lead to issues with component re-renders, as state won't automatically update when props change. It's better to use `componentDidUpdate` to handle props changes.
@@ -886,6 +956,7 @@ Sure! Here’s an overview of frequently asked React interview questions, along 
 
 49. **How to make AJAX request in Redux?**
     - Use middleware like `redux-thunk` or `redux-saga` to handle asynchronous actions and make AJAX requests.
+    - You can use redux-thunk middleware which allows you to define async actions.
     - **Example with redux-thunk**:
       ```javascript
       const fetchData = () => {
@@ -900,8 +971,9 @@ Sure! Here’s an overview of frequently asked React interview questions, along 
 50. **What is the difference between component and container in React Redux?**
     - **Component**: A presentational component focused on UI without business logic.
     - **Container**: A component that is connected to the Redux store, often containing logic to manage state.
+    - A Component is a class or function that describes part of a React UI. Container is an informal term for a React component that is connected to a redux store.
 
-51. **What is React lazy function?**
+52. **What is React lazy function?**
     - React's `React.lazy()` allows you to load components lazily, splitting code to optimize loading performance. It works with `Suspense` to show a fallback UI while loading.
     - **Example**:
       ```javascript
